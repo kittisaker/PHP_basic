@@ -7,16 +7,12 @@
     <title>Learn PHP</title>
 </head>
 <body>
-<?php 
-        $x = 5;
-        function myfunc(){
-            $x = 10;
-            echo"Local output $x <br>";
-        }
+    <?php 
+        //constants are global
+        define("car", ["BMW", "Ford", "Mazda"]);
 
-        myfunc();
-
-        echo"Global output " . $x . "<br>";
+        echo car[2];
     ?>
+    
 </body>
 </html>

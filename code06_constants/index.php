@@ -8,15 +8,19 @@
 </head>
 <body>
 <?php 
-        $x = 5;
-        function myfunc(){
-            $x = 10;
-            echo"Local output $x <br>";
+        //constants are global
+        define("greeting", "welcome to kope school");
+        echo greeting;
+
+        echo"<br>";
+
+        function test(){
+            echo"test greeting... ";
+            echo greeting;
         }
 
-        myfunc();
-
-        echo"Global output " . $x . "<br>";
+        test();
     ?>
+    
 </body>
 </html>

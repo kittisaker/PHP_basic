@@ -8,15 +8,15 @@
 </head>
 <body>
 <?php 
-        $x = 5;
-        function myfunc(){
-            $x = 10;
-            echo"Local output $x <br>";
-        }
+        echo"kittisak", "   hanheam";
+        echo"<br>";
+        print"kittisak";
 
-        myfunc();
-
-        echo"Global output " . $x . "<br>";
+        $txt1 = "learn php";
+        $txt2 = "ksh school";
+        echo $txt1 . " " . $txt2; 
+        print $txt1 . " " . $txt2; //do it
     ?>
+    <br>
 </body>
 </html>

@@ -7,16 +7,16 @@
     <title>Learn PHP</title>
 </head>
 <body>
-<?php 
-        $x = 5;
-        function myfunc(){
-            $x = 10;
-            echo"Local output $x <br>";
+    <?php 
+        $x = 100;
+        $y = 50;
+
+        if($x == 100 xor $y == 50){
+            echo"Hello world";
+        }else{
+            echo"true and true";
         }
-
-        myfunc();
-
-        echo"Global output " . $x . "<br>";
     ?>
+    
 </body>
 </html>
